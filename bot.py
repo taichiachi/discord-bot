@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Config
-TOKEN = os.environ.get("https://canary.discord.com/api/webhooks/1485069762555019374/Wist54ief1PCAFbS7YE-6Ts6DLFbAHhMzhhYJBWnAZ3ZxIAKtW3PZP7UHT3iNR07nw1t")
+TOKEN = os.environ.get("https://discord.com/api/webhooks/1485069762555019374/Wist54ief1PCAFbS7YE-6Ts6DLFbAHhMzhhYJBWnAZ3ZxIAKtW3PZP7UHT3iNR07nw1t")
 PORT = int(os.environ.get("PORT", 8080))
 
 intents = discord.Intents.default()
